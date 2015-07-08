@@ -1,0 +1,26 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+	background-color:#dfd8d0;
+}
+
+.navbar-text {
+	a {
+		color: #455455;
+	}
+
+	a:hover {
+		color: #0CA8AD;
+		text-decoration:none;
+	}
+}
+
+.sketch {
+	opacity:0.9;
+	width:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:-1;	
+}
