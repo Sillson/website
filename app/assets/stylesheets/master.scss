@@ -3,6 +3,7 @@
 
 body {
 	background-color:#dfd8d0;
+	font-family: "font-family: 'Vollkorn', serif;"
 }
 
 .navbar-text {
@@ -14,6 +15,33 @@ body {
 		color: #0CA8AD;
 		text-decoration:none;
 	}
+
+	a:active {
+		color: #0CA8AD;
+		text-decoration:none;
+	}
+
+	a:visited {
+		text-decoration:none;
+	}
+}
+
+.navbar-nav.navy-items {
+	margin-top: -13px;
+
+	a:hover {
+		color: #0CA8AD !important;
+	}
+
+	a:active {
+		color: #0CA8AD !important;
+		text-decoration:none;
+	}
+
+	a:visited {
+		text-decoration:none;
+	}
+
 }
 
 .sketch {
