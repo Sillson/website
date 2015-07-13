@@ -6,6 +6,7 @@ body {
 	font-family: "font-family: 'Vollkorn', serif;"
 }
 
+/* Navigation styling */
 .navbar-text {
 	a {
 		color: #455455;
@@ -44,6 +45,8 @@ body {
 
 }
 
+
+/* Background image style */
 .sketch {
 	opacity:0.9;
 	width:100%;
@@ -53,6 +56,7 @@ body {
 	z-index:-1;	
 }
 
+/* Contain mapbox to an appropriate location on page */
 #map
 {
     width: 100px;
@@ -68,4 +72,30 @@ body {
     height: 500px;
     width: 100%;
     min-width: 100%;
+}
+
+/* Fix the position of the water element */
+.testy {
+	position: fixed;
+}
+
+/* On page text */
+
+.text-block-1 {
+	background-color: #fff;
+	padding: 2em;
+	border-radius: 120px 0px 120px 0px;
+	opacity: 0.9;
+}
+
+.text-block-2 {
+	background-color: #fff;
+	padding: 2em;
+	border-radius: 0px 120px 0px 120px;
+	opacity: 0.9;
+}
+
+.in-text {
+	opacity: 1;
+	padding: 1em;
 }
